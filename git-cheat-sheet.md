@@ -1,4 +1,4 @@
-# A Git cheat sheet (MTM 2012-07-04)
+# A Git cheat sheet
 
 ## Getting started:
 
@@ -23,6 +23,8 @@ A remote repository (repo) is one that is separate from the code on
 your local machine (working-copy). It can be in another location on
 your machine (say, in `~/git/`), or on a different machine that you
 access remotely.
+
+If you're using a service like Github, there is very little to do beyond following the instructions provided when you initialize the repo through a browser. If you're moving a local repo to another machine where it will act as a remote repo, follow the instructions below.
 
 1. Setup (same as for regular repo) - start on local machine:
 
@@ -135,4 +137,7 @@ file, e.g.:
   features)
     * also see http://help.github.com
 	* Github app
+* Bitbucket (another hosting service with free private repos)
 * GitX (git gui for OS X)
+* [SourceTree](https://www.atlassian.com/software/sourcetree/overview) (haven't
+  tried it, but hear it's good)
